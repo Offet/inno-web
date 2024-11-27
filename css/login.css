@@ -11,7 +11,7 @@
 
 .form h2{
     width: 220px;
-    font-family: sans-serif;
+    font-family: "Monserrat";
     text-align: center;
     color: rgb(133, 5, 165);
     font-size: 22px;
@@ -33,7 +33,7 @@
     font-size: 15px;
     letter-spacing: 1px;
     margin-top: 30px;
-    font-family: sans-serif;
+    font-family: "Monserrat";
 }
 
 .form input:focus{
@@ -70,7 +70,7 @@
 }
 
 .form .link{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Monserrat";
     font-size: 17px;
     padding-top: 20px;
     text-align: center;
