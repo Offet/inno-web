@@ -6,7 +6,7 @@
 
 .main{
     width: 100%;
-    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(./assets/hangzhou-8398789_640.jpg);
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(./assets/laptop-5673901_640.jpg);
     background-position: center;
     background-size: cover;
     height: 109vh;
@@ -70,10 +70,11 @@ ul li a:hover{
     width: 33px;
     float: left;
     margin-left: 270px;
+    display: flex;
 }
 
 .nav-search{
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Times New Roman';
     width: 200px;
     height: 40px;
     background: transparent;
@@ -88,8 +89,12 @@ ul li a:hover{
     border-top-left-radius: 5px;
 }
 
+.nav-search:focus{
+    outline: none;
+}
+
 .btn{
-    width: 100p;
+    width: 100px;
     height: 40px;
     background: magenta;
     border: 2px solid magenta;
@@ -97,5 +102,10 @@ ul li a:hover{
     color: white;
     font-size: 15px;
     border-bottom-right-radius: 5px;
-    border-top-right-radius: 5px
+    border-top-right-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:focus{
+    outline: none;
 }
