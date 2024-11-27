@@ -6,7 +6,7 @@
 
 .main{
     width: 100%;
-    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(./assets/technology-785742_640.jpg);
+    background: linear-gradient(to top, rgba(0,0,0,0.7)50%, rgba(0,0,0,0.7)50%), url(../assets/hands-2178566_640.jpg);
     background-position: center;
     background-size: cover;
     height: 109vh;
