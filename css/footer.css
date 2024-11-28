@@ -1,103 +1,161 @@
-/* General Styles */
-body {
-    font-family: "open sans", "Monserrat";
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+/* This CSS Section contais the slider css syles and the footer css styles. */
+
+
+.comp {
+    align-items: center;
+    margin-top: 100px;
+    /* gap: 5rem; */
+    /* display: flex; */
+    /* height: 100px; */
 }
 
-.footer {
-    background: linear-gradient(to top, rgb(54, 54, 54)50%, rgb(54, 54, 54)50%);
-    color: #fff;
-    padding: 40px 20px;
+.company-container {
+    width: 100vw;
+    height: 80vh;
+    /* height: 500px; */
+    /* display: flex;
+    justify-content: center; */
+    align-items: center;
+}
+
+.company-container h2 {
     text-align: center;
+    font-size: 3rem;
+    font-weight: lighter;
 }
 
-.footer-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: flex-start;
-    gap: 20px;
-}
-
-.footer-section {
-    flex: 1;
-    min-width: 250px;
-    height: 200px;
-}
-
-.footer-section h3 {
-    margin-bottom: 20px;
-    font-size: 20px;
-    border-bottom: 2px solid #fff;
-    display: inline-block;
-}
-
-.footer-section p,
-.footer-section li {
-    font-size: 14px;
-    line-height: 1.6;
-}
-
-.footer-section ul {
-    list-style: none;
-    padding: 0;
-}
-
-.footer-section ul li {
-    margin: 10px 0;
-}
-
-.footer-section ul li a {
-    text-decoration: none;
-    color: #fff;
-    transition: color 0.3s ease;
-}
-
-.footer-section ul li a:hover {
-    color: #ff66cc;
-}
-
-/* Social Icons */
-.social-icons {
-    margin-top: 15px;
-}
-
-.social-icons a {
-    text-decoration: none;
-    margin: 0 10px;
-    font-size: 18px;
-    color: #fff;
-    transition: color 0.3s ease;
-}
-
-.social-icons a:hover {
-    color: #ff66cc;
-}
-
-/* Contact Icons */
-.footer-section .fas {
-    margin-right: 10px;
-    font-size: 16px;
-}
-
-/* Footer Bottom */
-.footer-bottom {
+.company-container p {
+    text-align: center;
     margin-top: 20px;
-    font-size: 14px;
+    font-size: 1.3rem;
+    font-weight: lighter;
+    color: #BFBFBF;
+}
+
+.dis-image {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.dis-image img{
+    /* display: flex;
+    justify-content: center; */
+    align-items: center;
+    width: 150px;
+    height: 150px;
+}
+
+/* Modifying the size of apple only */
+.dis-image .apple {
+    width: 100px;
+    height: 80px;
+}
+
+.dis-image .mailchimp {
+    width: 200px;
+    height: 150px;
+    /* margin-right: 10px; */
+}
+
+.filter-type {
+    font-size: 15px;
+}
+
+
+
+/* Working on the slider part */
+
+.slider-container {
+    background-color: #F8F9FA;
+    position: relative;
+    padding: 5rem;
+    align-items: center;
+    overflow: hidden;
+}
+.slide {
+    float: left;
+    display: flex;
+    justify-content: center;
+    font-family: "nunito" sans-serif;
+    font-style: italic;
+    color: #7f848c;
+    box-sizing: border-box;
+    
+}
+
+.slide p {
+    font-family: "nunito" sans-serif;
+    font-size: 35px;
+    padding: 30px;
+    text-align: center;
+    font-weight: lighter;
+}
+
+/* .slide img {
+
+} */
+
+
+
+
+/* Working on the footer */
+.footer {
+    background-color: #555555;
+    display: flex;
+    justify-content: space-around;
+    align-items: left;
+    height: 30vh;
+    column-gap: 50px;
+    text-align: center;
+    /* margin-top: 50px; */
+    padding: 150px 0px;
+    /* margin-bottom: 0px; */
+    /* text-decoration: none; */
+    
+}
+
+.footer h3 {
+    font-size: 1.5rem;
+    font-weight: lighter;
+    color: white;
+    padding-bottom: 20px;
+}
+
+.footer a:hover {
+    color: white;
+}
+
+/* .footer-text {
+    text-decoration: none;
+} */
+
+.footer-text a {
+    font-size: 1.3rem;
+    color: #9b9699;
+    text-decoration: none;
+}
+
+.footer-logo .footer-icons {
+   /* display: flex; */
+   width: 30px;
+   height: 50px;
+   gap: 4rem;
+    padding: 5px 5px;
+}
+
+.footer .footer-bottom {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 90px;
     border-top: 1px solid #444;
-    padding-top: 10px;
-}
-
-/* Responsive Design */
-@media (max-width: 768px) {
-    .footer-container {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .footer-section {
-        text-align: center;
-    }
-}
+    margin-top: 30px;
+    /* margin-right: 500px; */
+  }
+  .footer .footer-bottom p {
+    margin: 100px;
+    color: #bbb;
+  }
+  
