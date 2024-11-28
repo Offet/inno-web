@@ -78,7 +78,7 @@
     float: left;
     display: flex;
     justify-content: center;
-    font-family: "nunito" sans-serif;
+    font-family: "Monserrat";
     font-style: italic;
     color: #7f848c;
     box-sizing: border-box;
@@ -86,7 +86,7 @@
 }
 
 .slide p {
-    font-family: "nunito" sans-serif;
+    font-family: "Monserrat";
     font-size: 35px;
     padding: 30px;
     text-align: center;
@@ -117,7 +117,7 @@
 }
 
 .footer h3 {
-    font-size: 1.5rem;
+    font-size: 18px;
     font-weight: lighter;
     color: white;
     padding-bottom: 20px;
@@ -132,7 +132,7 @@
 } */
 
 .footer-text a {
-    font-size: 1.3rem;
+    font-size: 16px;
     color: #9b9699;
     text-decoration: none;
 }
