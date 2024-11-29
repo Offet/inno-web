@@ -121,13 +121,13 @@ ul li a:hover{
 .content .par{
     padding-left: 20px;
     padding-bottom: 25px;
-    font-family: "open sans";
+    /* font-family: "Poppins Bold"; */
     letter-spacing: 1.2px;
     line-height: 30px;
 }
 
 .content h1{
-    font-family: "Times New Roman";
+    font-family: "Poppins Bold";
     font-size: 50px;
     padding-left: 20px;
     margin-top: 10%;
@@ -160,6 +160,7 @@ ul li a:hover{
 
 .content span{
     color: rgb(62, 3, 77);
+    font-family: "courgette-regular";
     /* font-weight: bolder; */
     font-size: 60px;
 }
@@ -181,6 +182,45 @@ ul li a:hover{
     }
 
     ul li a{
+        font-size: 1.6vw;
+    }
+
+    .search {
+        margin-top: 3px;
+        margin-left: 29px;
+    }
+
+    .nav-search{
+        height: 40px;
+        width: 190px;
+        font-size: 14px;
+    }
+
+    .btn{
+        height: 40px;
+        width: 80px;
+    }
+
+    .content{
+        width: 100%;
+    }
+
+    .content h1, .content span{
+        font-size: 4.5vw;
+    }
+
+    .content .par{
+        width: 90%;
+        font-size: 1.5vw;
+    }
+
+    .content .con-btn{
+        width: 13%;
+        height: 3.5vw;
+        font-size: 1.8vw;
+    }
+
+    .content a{
         font-size: 1.6vw;
     }
 }
